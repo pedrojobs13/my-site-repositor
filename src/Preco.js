@@ -1,51 +1,54 @@
 import React from "react";
+import { GoMarkGithub, GoGitPullRequest, GoCode } from "react-icons/go";
 
 const Preco = () => {
   return (
     <section className="preco">
       <div className="preco-item">
-        <h2>Cobre</h2>
+        <h2>1º Project</h2>
         <span>
-          <sup>R$</sup>19
+          <div className="enter-github-page">
+            <GoGitPullRequest />
+            <GoMarkGithub />
+            <GoCode />
+          </div>
         </span>
         <ul>
-          <li>Planos Ilimitados</li>
-          <li>Acesso Restrito</li>
-          <li>Conteúdo Secreto</li>
-          <li>Suporte 24h</li>
-          <li>Planos Ilimitados</li>
+          <li>
+            Um ToDo List da Rockeaset básico, mas não completo, que faz CRUD sem
+            o Update
+          </li>
         </ul>
-        <a href="#">Comprar</a>
       </div>
 
       <div className="preco-item">
-        <h2>Prata</h2>
+        <h2>2º Project</h2>
         <span>
-          <sup>R$</sup>39
+          <div className="enter-github-page">
+            <GoGitPullRequest />
+            <GoMarkGithub />
+            <GoCode />
+          </div>
         </span>
         <ul>
-          <li>Planos Ilimitados</li>
-          <li>Acesso Restrito</li>
-          <li>Conteúdo Secreto</li>
-          <li>Suporte 24h</li>
-          <li>Compra Exclusiva</li>
+          <li>Projeto simples de dois botões para a verificação dos mesmos</li>
         </ul>
-        <a href="#">Comprar</a>
       </div>
 
       <div className="preco-item">
-        <h2>Ouro</h2>
+        <h2>3º Project</h2>
         <span>
-          <sup>R$</sup>79
+          <div className="enter-github-page">
+            <GoGitPullRequest />
+            <GoMarkGithub />
+            <GoCode />
+          </div>
         </span>
         <ul>
-          <li>Planos Ilimitados</li>
-          <li>Acesso Restrito</li>
-          <li>Conteúdo Secreto</li>
-          <li>Suporte 24h</li>
-          <li>Compra Exclusiva</li>
+          <li>
+            Projetos da Rockeseat dtmoney, que verifica as entradas e saídas
+          </li>
         </ul>
-        <a href="#">Comprar</a>
       </div>
     </section>
   );

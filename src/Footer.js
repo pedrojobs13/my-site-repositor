@@ -8,13 +8,14 @@ const Footer = () => {
           <h3>Newsletter</h3>
           <p>Assine Aqui</p>
         </div>
-        <form>
+        <div className="newsletter-forms">
           <input type="text" placeholder="Seu e-mail" />
           <button type="submit">Assinar</button>
-        </form>
+        </div>
       </section>
       <footer className="footer">
         <p>Vou adicionar</p>
+        <a name="sobre"></a>
       </footer>
     </>
   );
